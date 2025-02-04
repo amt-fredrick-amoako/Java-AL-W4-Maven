@@ -6,8 +6,11 @@ package com.amalitech;
  */
 public class App 
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+    public int multiply(int firstNumber, int secondNumber){
+        return firstNumber * secondNumber;
+    }
+
+    public int subtract(int firstNumber, int secondNumber){
+        return firstNumber - secondNumber;
     }
 }
