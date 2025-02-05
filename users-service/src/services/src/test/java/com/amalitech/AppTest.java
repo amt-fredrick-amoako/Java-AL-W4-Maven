@@ -11,11 +11,11 @@ import static org.junit.Assert.assertThat;
  */
 public class AppTest 
 {
-    private App app;
+    private BuggyCode app;
 
     @Before
     public void setUp(){
-        app = new App();
+        app = new BuggyCode();
     }
 
     @Test
